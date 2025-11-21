@@ -14,8 +14,6 @@ public class OrdenesService {
 
     private final RestTemplate restTemplate;
 
-    private final String X_API_KEY = "GCCD_GraFvu0AUkmV2ajJQS-YWNdY6tf5bXG1SBGqPhxW4SW-AjWXSwb9xnxoyHQ";
-
     public OrdenesService() {
         this.restTemplate = new RestTemplateBuilder().build();;
     }
